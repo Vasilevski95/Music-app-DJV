@@ -18,7 +18,7 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
             baseUrl: 'https://shazam-core.p.rapidapi.com/v1',
             //We copy link from generated code of rapidApi up until v1, that our base query,  which is always the same, and we add different endpoints
             prepareHeaders: (headers) => {
-                headers.set('X-RapidAPI-Key', '61d6550440msh21576a8d3cfe90cp131c24jsn6619e15c54ae')
+                headers.set('X-RapidAPI-Key', '(YOUR KEY)')
                 //This is a callback arrow function, its going to prepare headers for us before each and every api call, so we won't have to provide options every time
                 return headers
                 //We have to return headers, after we set the specific property (headers)
